@@ -28,6 +28,6 @@ class String
 
   def count_sentences
     self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
-    # thank you StackOverflow. Here's the breakdown: [^] is a negation operator; we're looking for characters that are NOT
+    # thank you StackOverflow. Here's the breakdown: [^] is a negation operator; we're looking for characters that are NOT .!?
   end
 end
