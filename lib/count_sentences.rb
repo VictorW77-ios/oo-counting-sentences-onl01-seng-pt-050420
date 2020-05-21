@@ -31,4 +31,4 @@ class String
   end
 end 
 
-## thank you StackOverflow. Here's the breakdown for the count_sentences method: [^] is a negation operator; we're looking for characters that are NOT ' . ' ' ! ' or ' ? '. The ' + ' operator lets us ignore '...'- a test condition that really held me up for a sec! 
+## thank you StackOverflow. Here's the breakdown for the count_sentences method: [^] is a negation operator; we're looking for characters that are NOT ' . ' ' ! ' or ' ? '. The ' + ' operator lets us ignore '...'- a test condition that really held me up for a sec! The 'strip' command removes whitespaces from a string.
