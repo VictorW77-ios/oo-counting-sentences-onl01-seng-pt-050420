@@ -28,6 +28,7 @@ class String
 
   def count_sentences
     self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
-  
   end
-end  ## thank you StackOverflow. Here's the breakdown: [^] is a negation operator; we're looking for characters that are NOT ' . ' ' ! ' or ' ? '. The ' + ' operator lets us ignore ' ... ' - a test condition that really held me up for a sec! 
+end 
+
+## thank you StackOverflow. Here's the breakdown for the count_sentences method: [^] is a negation operator; we're looking for characters that are NOT ' . ' ' ! ' or ' ? '. The ' + ' operator lets us ignore '...'- a test condition that really held me up for a sec! 
