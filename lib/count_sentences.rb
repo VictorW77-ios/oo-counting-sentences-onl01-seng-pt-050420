@@ -7,6 +7,7 @@ class String
       return true 
     else
       return false
+    end
   end
 
   def question?
